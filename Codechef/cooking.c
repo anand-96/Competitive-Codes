@@ -1,0 +1,65 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int T,i,a,x,b,j,y,p=0,t,f,k;
+	scanf("%d",&T);
+	if(T<=200&&T>=1)
+	{
+		for(j=0;j<T;j++)
+		{
+	scanf("%d%d",&a, &b);
+	if(a<1||a>10000000||b<1||b>10000000)
+	       break;
+	   x=a;
+	       if(a==b){
+	       printf("%d\n",0);
+	       continue;
+	       }
+	if(a<b){
+	if(a%2!=0&&a!=1)
+	for(k=0;a!=1;k++)
+	a/=2;
+		for(i=0;a!=b;i++)
+		{
+		a*=2;
+		if(a>b&&y%2==0){
+		while(y%2!=0){
+		y/=2;
+		p++;
+		}
+			for(f=0;y!=1;f++)
+	y/=2;
+		for(t=0;y!=b;t++)
+		a*=2;
+		printf("%d\n",p+t+f);
+		continue;
+		}
+		}
+			if(x%2!=0&&x!=1)
+		printf("%d\n",i+k);
+	else 
+		printf("%d\n",i);
+	}
+	else{
+		if(a%2!=0&&a!=1){
+			for(k=0;a!=1;k++)
+	         a/=2;
+	         for(i=0;a!=b;i++){
+	         a*=2;
+	             	if(a>b)
+		exit(0);
+		}
+	         		printf("%d\n",i+k);
+		}
+		else{
+		for(i=0;a!=b;i++){
+		a/=2;
+		}
+		printf("%d\n",i);
+		}
+	}
+		}
+	}
+return 0;
+}
